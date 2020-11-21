@@ -1,4 +1,6 @@
 import './NavigationBar.css';
+import PropTypes from 'prop-types';
+import { useState } from 'react';
 
 import React from 'react';
 import PropTypes from 'prop-types';
