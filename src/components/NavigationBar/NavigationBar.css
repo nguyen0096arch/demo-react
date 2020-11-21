@@ -35,13 +35,12 @@
 
 /* Menu styles */
 
-.navbar {
+.menu {
 	position: fixed;
-	top: 0;
+	top: 120px;
 	left: 0;
 	width: 300px;
-    /* height: calc(100vh - 120px); */
-    height: 100vh;
+	height: calc(100vh - 120px);
 	background: #1c1d22;
 }
 
