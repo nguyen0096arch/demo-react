@@ -1,8 +1,6 @@
-import './NavigationBar.css';
-import PropTypes from 'prop-types';
-import { useState } from 'react';
+// import './NavigationBar.css';
 
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import NavigationMenu from './subcomponents/NavigationMenu';

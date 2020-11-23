@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-=======
 import React from 'react';
->>>>>>> origin/master
+
 import Dummy from './Dummy';
 
 export default {
