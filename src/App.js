@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from './pages/Home';
-import ReactDemo from './pages/ReactDemo';
+import DemoContext from './pages/DemoContext';
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
       <Router>
         <ul>
           <Link to="/"><li>Home</li></Link>
-          <Link to="/react"><li>Counter</li></Link>
+          <Link to="/react"><li>Context</li></Link>
         </ul>
         <Switch>
-          <Route path="/react" component={ReactDemo} />
+          <Route path="/react" component={DemoContext} />
           <Route component={Home} />
         </Switch>
       </Router>
